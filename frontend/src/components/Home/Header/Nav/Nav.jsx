@@ -1,4 +1,4 @@
-import NavContainer from './Nav.module.css' ; 
+import NavContainer from "./Nav.module.css";
 import React from "react";
 const Nav = () => {
   return (
@@ -8,9 +8,9 @@ const Nav = () => {
           <li>Home</li>
           <li>About Us </li>
           <li>Popular Destinations </li>
-          <li>Our Pagkages</li>
-          <li>Help</li>
           <button>Sign in </button>
+          <button>Login </button>
+          <i className="fa-solid fa-home"></i>
         </ul>
       </nav>
     </>
