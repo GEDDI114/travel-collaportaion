@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./TourCard.module.css"; // make sure this CSS file matches your styles
 
 const TourCard = ({ background, logo, country }) => {
+    
   return (
     <div className={styles.Card}>
       {/* Top image */}
